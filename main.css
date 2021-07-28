@@ -27,6 +27,7 @@ form {
 
 }
 
+/*  
 button{
     border-width: 0;
     border-radius: 5px;
@@ -39,11 +40,30 @@ button{
     padding-left: 10px;
 
 }
-#left-buton {
+*/
+#left-button {
     margin-right: 5px;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     
 }
 
 #right-button {
     margin-left: 5px;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
