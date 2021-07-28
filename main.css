@@ -13,7 +13,13 @@ form {
     height: 35px;
     border-radius: 25px;
     border: 1px solid #e2e2e2;
+    padding-left:50px;
+    padding-right: 50px;
     
+}
+
+#searchbar:focus {
+    outline: none;
 }
 
 .buttons{
