@@ -28,7 +28,7 @@ form {
 
 .buttons{
     margin-top: 30px;
-
+    
 }
 
 #left-button {
@@ -37,7 +37,6 @@ form {
     border-radius: 5px;
     font-size: 16px;
     font-family: arial,sans-serif;
-
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -51,9 +50,20 @@ form {
     border-radius: 5px;
     font-size: 16px;
     font-family: arial,sans-serif;
-
+    
     padding: 10px;
 }
+
+#right-button:hover  {
+    box-shadow:  0 0 5px 1px rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+#left-button:hover  {
+    box-shadow:  0 0 5px 1px rgb(184, 184, 184);
+    cursor: pointer;
+}
+
 
 a {
     text-decoration: none;
@@ -98,12 +108,12 @@ a:hover {
     height: 24px;
     width: 24px;
     padding: 0 10px;
-    opacity: 55%;
+    opacity: 50%;
 }
 
-#apps :hover{
+#apps:hover {
     opacity: 80%;
-}
+} 
 
 #sign-in {
     background-color: rgb(0, 162, 255);
@@ -112,6 +122,11 @@ a:hover {
     border-width: 0;
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+#sign-in:hover {
+    box-shadow:  0 0 1px 1px rgb(0, 162, 255); 
+    cursor: pointer;
 }
 
 #bot {
