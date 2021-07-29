@@ -37,14 +37,14 @@ form {
 #search-icon {
     position: absolute;
     height: 35px;
-    left: 977px;
+    right: 1202px;
     bottom: 0px;
 }
 
 #mic {
     position: absolute;
     height: 35px;
-    right: 977px;
+    left: 1202px;
     bottom: 0px;
 }
 
