@@ -18,12 +18,34 @@ form {
     border: 1px solid #e2e2e2;
     padding-left:50px;
     padding-right: 50px;
-    
+    display: block;
+    margin: 0 auto;
 }
 
 #searchbar:focus {
     outline: none;
     box-shadow:  0 0 5px 1px rgb(184, 184, 184);
+}
+
+#searchbar:hover {
+    box-shadow:  0 0 5px 1px rgb(184, 184, 184);
+}
+
+.searchbar-w-icons{
+    position: relative;
+}
+#search-icon {
+    position: absolute;
+    height: 35px;
+    left: 977px;
+    bottom: 0px;
+}
+
+#mic {
+    position: absolute;
+    height: 35px;
+    right: 977px;
+    bottom: 0px;
 }
 
 .buttons{
