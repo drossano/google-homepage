@@ -1,3 +1,6 @@
+.search{
+    margin-top: 10%;
+}
 #logo {
     display: block;
     margin: 0 auto;
@@ -80,11 +83,13 @@ a:hover {
 }
 
 .right-nav{
-    padding: 10px;
     align-items: center;
     flex-direction: row-reverse;
 }
 
+.right-nav a{
+    padding: 0 10px;
+}
 #apps {
     height: 24px;
     width: 24px;
@@ -100,4 +105,11 @@ a:hover {
     padding: 10px 20px;
 }
 
+#bot {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+}
 
