@@ -1,0 +1,1 @@
+This project is part of the Odin Project Foundations curriculum. It demonstraates my understanding of HTML and CSS thus far.
