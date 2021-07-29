@@ -74,7 +74,10 @@ a:hover {
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .left-nav{
+    display: flex;
+    align-items: center;
     padding: 10px;
 }
 
@@ -83,8 +86,9 @@ a:hover {
 }
 
 .right-nav{
-    align-items: center;
-    flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .right-nav a{
@@ -94,6 +98,11 @@ a:hover {
     height: 24px;
     width: 24px;
     padding: 0 10px;
+    opacity: 55%;
+}
+
+#apps :hover{
+    opacity: 80%;
 }
 
 #sign-in {
