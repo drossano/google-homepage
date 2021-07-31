@@ -21,7 +21,6 @@ form {
     padding-right: 50px;
     display: block;
     margin: 0 auto;
-
 }
 
 #searchbar:focus {
@@ -48,7 +47,7 @@ form {
     justify-content: space-between;
     width: 500px;
     height: 35px;
-
+    pointer-events: none;
 }
 
 #search-icon{
