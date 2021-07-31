@@ -21,6 +21,7 @@ form {
     padding-right: 50px;
     display: block;
     margin: 0 auto;
+
 }
 
 #searchbar:focus {
@@ -34,20 +35,29 @@ form {
 
 .searchbar-w-icons {
     position: relative;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
 }
 
-#search-icon {
+.icons {
+    margin: 0 auto;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
     height: 35px;
-    right: 1202px;
-    bottom: 0px;
+
 }
 
-#mic {
-    position: absolute;
-    height: 35px;
-    left: 1202px;
-    bottom: 0px;
+#search-icon{
+    padding-left: 5px;
+
+}
+
+#mic-icon{
+    padding-right: 5px;
 }
 
 .buttons {
